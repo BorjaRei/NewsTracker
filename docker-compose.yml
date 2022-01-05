@@ -10,7 +10,7 @@ services:
         - 'ES_JAVA_OPTS=-Xms2048m -Xmx2048m'
         - 'discovery.type=single-node'
     volumes:
-        - elasticsearch-data:/mnt/c/Users/jortu/OneDrive/Escritorio/Jon/Universidad/4 de Carrera/AS/Grupal/Datos
+        - elasticsearch-data:/usr/share/elasticsearch/data/
   kibana:
     image: docker.elastic.co/kibana/kibana:7.16.2
     ports:
